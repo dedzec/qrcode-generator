@@ -68,12 +68,12 @@ const App = () => {
             <Grid container spacing={2} align="center">
               <Grid item xs={12} sm={12} md={4} lg={4}>
                 <FormControl variant="outlined">
-                  <InputLabel id="demo-simple-select-outlined-label">
+                  <InputLabel id="demo-simple-select-outlined-label1">
                     Size
                   </InputLabel>
                   <Select
-                    labelId="demo-simple-select-outlined-label"
-                    id="demo-simple-select-outlined"
+                    labelId="demo-simple-select-outlined-label1"
+                    id="demo-simple-select-outlined1"
                     value={size}
                     onChange={(event) => setSize(event.target.value)}
                     label="Age"
@@ -89,7 +89,7 @@ const App = () => {
               <Grid item xs={12} sm={12} md={4} lg={4}>
                 <FormControl variant="outlined" className={classes.formControl}>
                   <InputLabel id="demo-simple-select-outlined-label2">
-                    Size
+                    Level
                   </InputLabel>
                   <Select
                     labelId="demo-simple-select-outlined-label2"
@@ -107,12 +107,12 @@ const App = () => {
               </Grid>
               <Grid item xs={12} sm={12} md={4} lg={4}>
                 <FormControl variant="outlined" className={classes.formControl}>
-                  <InputLabel id="demo-simple-select-outlined-label2">
-                    Size
+                  <InputLabel id="demo-simple-select-outlined-label3">
+                    Render
                   </InputLabel>
                   <Select
-                    labelId="demo-simple-select-outlined-label2"
-                    id="demo-simple-select-outlined2"
+                    labelId="demo-simple-select-outlined-label3"
+                    id="demo-simple-select-outlined3"
                     value={render}
                     onChange={(event) => setRender(event.target.value)}
                     label="Age"
