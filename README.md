@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[https://qrcodegenerato.000webhostapp.com/](https://qrcodegenerato.000webhostapp.com/)
+[https://qrcodegenerato-demo.000webhostapp.com/](https://qrcodegenerato-demo.000webhostapp.com/)
 
 ## How to use
 
